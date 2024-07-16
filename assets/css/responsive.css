@@ -1,0 +1,95 @@
+/* PC */
+@media (min-width: 64em){
+
+}
+
+/* tablet and mobile */
+@media (max-width:63.9375em){
+    .btn{
+        padding: 16px 16px;
+    }
+
+    .contact-input-info .form-control {
+        padding: 15px;
+    }
+
+    .social{
+        font-size: 32px;
+    }
+
+    .social a{
+        padding: 0 4px;
+    }
+
+    #footer .copyright a{
+        padding: 16px 0;
+    }
+
+    .nav .subnav a {
+        padding: 13px 16px;
+    }
+
+    .contact-info{
+        line-height: 2;
+    }
+    .form-control,
+    .contact-btn{
+        font-size: 16px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width:63.9375em){
+
+}
+
+/* Mobile */
+@media (max-width:46.1875em){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+ 
+    .s-mgt-8{
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-button{
+        display: none;
+    }
+
+    .nav{
+        display: block;
+    }
+
+    .nav > li{
+        display: block;
+    }
+
+    .nav > li:first-child{
+        display: inline-block;
+    }
+
+    .nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    .nav .subnav a{
+        color: #fff;
+        padding: 8px 41px
+    }
+
+    .contact-input-info{
+        margin-top: 32px;
+    }
+
+}
